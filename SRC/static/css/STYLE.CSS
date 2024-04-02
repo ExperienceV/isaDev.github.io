@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Pixelify%20Sans:700|Pixelify%20Sans:400');
 
 body {
-  font-family: 'Pixelify Sans';
+  font-family: 'Times New Roman';
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Pixelify Sans';
+  font-family: 'Times New Roman';
   font-weight: 700;
 }
 
