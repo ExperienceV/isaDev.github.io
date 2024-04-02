@@ -32,12 +32,11 @@ def contacts(dict: dict):
         'file': ("archivo.txt", file_content, 'text/plain')
     }
 
-    # Enviar la solicitud POST al webhook de Discord
+    # Enviar y comprueba la solicitud POST al webhook de Discord
     response = requests.post(webhook_url, files=payload)
 
-    # Verificar si la solicitud se realizó con éxito
     if response.status_code == 204:
-        print("El archivo .txt se envió correctamente al canal de Discord.")
+        print("Archivo .txt enviado correctamente.")
     else:
-        print("Ocurrió un error al enviar el archivo .txt al canal de Discord.")
+        print("Vaya... Parece que hubo un error en el proceso.")
 
